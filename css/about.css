@@ -1,0 +1,87 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+
+.about-wrapper {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background: #F4C531;
+  min-height: 100%;
+}
+
+
+.head-pic {
+  width: 80%;
+  margin: 0px auto;
+  font-family: 'Lato';
+  font-size: 50px;
+  color: #fff;
+  font-weight: 100;
+}
+
+h4 {
+  display: inline;
+  font-weight: 300;
+
+}
+
+.skill-title {
+  text-align: center;
+  font-size: 35px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.panel-container {
+  width: 100%;
+  font-size: 0px;
+}
+
+.skill-bar {
+  height: 2px;
+  width: 100%;
+  margin: 0px auto;
+  background-color: #fff;
+}
+
+.columns {
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  font-weight: 300;
+}
+
+.panel-container .panel {
+  width: 33.33%;
+  height: 200px;
+  margin-top: 5px;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+  vertical-align: top;
+}
+
+.panel-body {
+  margin-top: 8px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h5 {
+  margin: 0px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+
+h5 a {
+  text-decoration: none;
+}
+
+
+
