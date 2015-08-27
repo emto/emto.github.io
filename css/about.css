@@ -1,0 +1,142 @@
+.subtitle {
+  font-family: 'Arvo';
+  font-size: 65px;
+  line-height: 70px;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.about-text {
+  display: inline-block;
+  text-align: left;
+}
+
+.main {
+  font-family: 'Arvo';
+  font-size: 24px;
+  margin: 10px 0px 20px 10px;
+}
+.module {
+/*  overflow: hidden;
+  height: auto;*/
+  text-align: center;
+  width: 920px;
+  margin: 0 auto;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.about-img {
+  float: left;
+  display: inline-block;
+  width: 300px;
+  height: 600px;
+/*  background-color: #000;*/
+}
+
+.about-img img {
+  width: 300px;
+}
+
+.about-text {
+  display: inline-block;
+  float: right;
+  width: 600px;
+}
+
+.moar {
+  display: inline-block;
+  width: 600px;
+  height: auto;
+}
+
+.facts {
+  overflow: auto;
+  display: inline-block;
+  width: 370px;
+  height: 500px;
+  font-size: 30px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.skills {
+  overflow: auto;
+  display: inline-block;
+  width: 200px;
+  height: 500px;
+  background-color: #ccc;
+}
+
+.skills ul {
+  margin: 5px 0px 10px 0px;
+  padding: 0;
+}
+
+.skills ul li {
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.skill {
+  font-size: 22px;
+}
+
+.skill-list {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.redir {
+  display: block;
+/*  background-color: #000;*/
+}
+
+.redir ul {
+  padding: 0;
+}
+.redir ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.facts a {
+  color: #000;
+  font-weight: 400;
+}
+
+.facts a:hover {
+  text-decoration: underline;
+}
+
+.blurb {
+  padding-top: 20px;
+  line-height: 30px;
+  font-size: 22px;
+}
+
+.redir img {
+  margin: 0 7px;
+  width: 70px;
+}
+
+@media only screen and (max-width: 925px) {
+  .module {
+    width: 100%;
+  }
+  .about-img {
+    float: none;
+    width: 100%;
+    display: inline-block;
+  }
+  .about-text {
+    float: none;
+    width: 100%;
+    display: inline-block;
+  }
+}

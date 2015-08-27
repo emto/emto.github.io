@@ -1,0 +1,110 @@
+.content {
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 50px;
+}
+
+.subtitle {
+  font-family: 'Arvo';
+  font-size: 65px;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+
+.head-img {
+  background-color: #000;
+  height: 400px;
+  background-size: 100%;
+  background-position: 25% 25%;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.cmyk {
+  background-image: url('/assets/screenshots/cmyk/cmyk_icon.png');
+}
+
+.iter1 {
+  background-image: url('/assets/screenshots/oldSite/oldsite_icon.png');
+}
+
+.iter2 {
+  background-image: url('/assets/screenshots/newSite/newsite_icon.png');
+}
+
+.ideaswatch {
+  background-image: url('/assets/screenshots/ideaSwatch/ideaswatch_icon.png');
+}
+
+.dnanexus {
+  background-image: url('/assets/screenshots/dnanexus/dnanexus_icon.png');
+}
+
+.module {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+/*  height: 100%;*/
+  background-color: #fff;
+}
+
+.subtext {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.subheader {
+  font-family: 'Lato';
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+  line-height: 35px;
+}
+
+.tech {
+  margin-top: 30px;
+  font-family: 'Lato';
+  font-weight: 300;
+  line-height: 35px;
+  font-size: 24px;
+}
+
+.lessons {
+  margin-top: 30px;
+  font-family: 'Lato';
+  font-weight: 300;
+  line-height: 35px;
+  font-size: 24px;
+}
+
+.sublabel {
+  display: block;
+  font-family: 'Arvo';
+  font-size: 24px;
+}
+
+.live-ref {
+  margin-top: 40px;
+  font-family: 'Arvo';
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #ccc;
+  font-size: 35px;
+}
+
+.shots {
+  display: inline-block;
+  margin: 40px 20px;
+}
+
+.inspiration {
+  margin: 20px 0px;
+  width: 70%;
+}
+
+.shots img {
+  width: 40%;
+  margin: 10px;
+}

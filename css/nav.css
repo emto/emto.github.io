@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Lato;
+}
+
+.icon {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  height: 45px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+
+nav {
+  display: block;
+  color: #000;
+  background-color: #000;
+  height: 60px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 100px;
+  margin-top: 18px;
+}
+
+@media only screen and (max-width: 900px) {
+  nav ul li {
+    padding: 0 25px;
+  }
+}
