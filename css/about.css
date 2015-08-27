@@ -40,7 +40,7 @@
 }
 
 .about-img img {
-  width: 100%;
+  width: 300px;
 }
 
 .about-text {
@@ -136,11 +136,14 @@
     display: inline-block;
   }
   .about-text {
+    clear: both;
     float: none;
+    height: auto;
     width: 100%;
     display: inline-block;
   }
   .moar {
+    height: auto;
     width: 100%;
   }
   .facts {
@@ -161,6 +164,9 @@
 
 @media only screen and (max-width: 360px) {
   .about-text {
-    margin-top: 50px;
+    margin-top: 20px;
+  }
+  .about-img .portrait {
+    width: 250px;
   }
 }
