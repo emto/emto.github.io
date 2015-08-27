@@ -50,7 +50,7 @@
 }
 
 .moar {
-  display: inline-block;
+/*  display: inline-block;*/
   width: 600px;
   height: auto;
 }
@@ -138,5 +138,17 @@
     float: none;
     width: 100%;
     display: inline-block;
+  }
+  .moar {
+    width: 100%;
+  }
+  .skills {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .skill-list {
+    padding-left: 0px;
   }
 }
