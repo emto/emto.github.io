@@ -108,3 +108,22 @@
   width: 40%;
   margin: 10px;
 }
+
+@media only screen and (max-width: 500px) {
+  .content {
+    padding: 0px;
+  }
+  .module {
+    padding: 0px;
+  }
+  .subtext {
+    width: 90%;
+  }
+  .subheader {
+    font-size: 18px;
+  }
+  .shots {
+    margin: 10px;
+  }
+}
+
