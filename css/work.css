@@ -23,7 +23,7 @@
   width: 300px;
   height: 400px;
   background-color: #000;
-  box-shadow: 5px 5px 5px #ccc;
+  border: 1px solid #d8d8d8;
 }
 
 .card-img {

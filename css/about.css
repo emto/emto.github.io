@@ -70,7 +70,7 @@
   display: inline-block;
   width: 200px;
   height: 500px;
-  background-color: #ccc;
+  background-color: #d8d8d8;
 }
 
 .skills ul {
@@ -107,7 +107,7 @@
 }
 
 .facts a {
-  color: #000;
+  color: #8bd34c;
   font-weight: 400;
 }
 

@@ -42,35 +42,33 @@ window.onload = function(){
   var m_line1 = s.line(x+121, y+90, x+121, y).attr({stroke: 'black'});
   var m_line2 = s.line(x+124, y+90, x+124, y).attr({stroke: 'black'});
   var m_triangle = s.polygon(x+90,y+90,x+107.5,y+65.5,x+125,y+90).attr({stroke: 'black', fill: 'white'});
-  var m_circle1 = s.circle(x+124, y+14, 15);
   var m_diamond = s.rect(x+110,y+14,40,15).attr({stroke: 'black', fill: 'none'}).transform("r60");
 
   var m_line3 = s.line(x+145,y+40, x+168, y).attr({stroke: 'black'});
   var m_line4 = s.line(x+142,y+37, x+164, y).attr({stroke: 'black'});
-  var m_rect1 = s.rect(x+170,y+15,14,75);
+  var m_rect1 = s.rect(x+170,y+15,14,75).attr({fill: 'black'});
   var m_circle2 = s.circle(x+145,y+40,12).attr({stroke: 'black', fill: '#fff'});
   var m_circle3 = s.circle(x+170,y+14,15).attr({stroke: 'black', fill: '#fff'});
-
+  var m_circle1 = s.circle(x+124, y+14, 15).attr({fill: 'black'});
   //I*********
-  var i_circle = s.circle(x+210,y+15,15);
   var i_rect = s.rect(x+196,y+15,28,75).attr({stroke: 'black', fill: 'none'});
   var i_line0 = s.line(x+220, y+90, x+220, y+15).attr({stroke: 'black'});
   var i_line1 = s.line(x+216, y+90, x+216, y+15).attr({stroke: 'black'});
-
+  var i_circle = s.circle(x+210,y+15,15).attr({fill: 'black'});
   //L*********
   var l_rect0 = s.rect(x+240,y,20,90).attr({stroke: 'black', fill: 'none'});
-  var l_tri0 = s.polygon(x+239,y+91,x+280,y+91,x+260,x+70);
+  var l_tri0 = s.polygon(x+239,y+91,x+280,y+91,x+260,x+70).attr({fill: 'black'});
   var l_squiggle = s.polyline(x+280,y+90,x+285,y+85,x+290,y+90,x+295,y+85).attr({stroke: 'black', fill: 'none', strokeWidth: 1.25});
   var l_line0 = s.line(x+270, y+80, x+295, y+80).attr({stroke: 'black', fill: 'none'});
   var l_line1 = s.line(x+270, y+83, x+295, y+83).attr({stroke: 'black', fill: 'none'});
 
   //Y********
+  var y_cir0 = s.circle(x+348,y+5,8).attr({fill: '#8bd34c'});
   var y_rect = s.rect(x+327.5,y+38,5,52);
-  var y_tri0 = s.polygon(x+295,y, x+365,y,x+330,y+40).attr({stroke: 'black', fill: '#fff'});
+  var y_tri0 = s.polygon(x+295,y, x+365,y,x+330,y+40).attr({stroke: 'black', fill: 'none'});
   var y_tri0 = s.polygon(x+310,y+10, x+350,y+10,x+330,y+30);
-  var y_cir0 = s.circle(x+348,y+5,8);
   var y_rect1 = s.rect(x+314,y+85,34, 5);
-  var y_line1 = s.line(x+348,y+5, x+368, y-2).attr({stroke: 'black'});
+  var y_line1 = s.line(x+325,y+15, x+368, y-5).attr({stroke: '#8bd34c'});
   var y_line0 = s.line(x+330,y+30,x+330,y+88).attr({stroke: 'white'});
 
   // var myMatrix = new Snap.Matrix();
