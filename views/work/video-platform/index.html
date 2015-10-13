@@ -1,0 +1,221 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="icon" type="image/png" href="/assets/favicon.ico"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300|Arvo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="/css/projects.css">
+
+    <title>Emily To</title>
+  </head>
+  <body>
+    <nav class="stable">
+      <a href="/"><img class="icon" src="/assets/logo1.png"/></a>
+      <ul>
+        <li><a href="/views/about/">ABOUT</a></li>
+        <li><a href="/views/work/">WORK</a></li>
+        <li><a href="mailto:emilytoe@gmail.com">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div class="head-img video">
+      </div>
+      <div class="module">
+        <div class="subtitle">
+          Code this Dribbble!
+        </div>
+        <div class="subtext">
+          <span class="subheader">Prompt: Take this Dribbble image and run with it!<br>
+          Code as much interaction as you please and use any technologies you see fit</span><br>
+          <a href="https://dribbble.com/shots/1168219-2-Movie-Service-UI/attachments/152522"><img class="inspiration" src="/assets/screenshots/video-platform/dribbble.png"></a><br>
+          Original Dribbble image! Video.png by Victor Erixon<br>
+
+          <span class="process">
+            <span class="day">
+              <span class="day-title">Where to start?</span>
+              <span class="day-para">
+                Well, first matter at hand was deciding how high fidelity I wanted this website to be. Should I include the chat components? Navigation? How much interaction should I include? Given a time constraint of 1 week, where most of the week I'd be unavailable to work freely on this project, I decided to go with a MVP. I had 2 goals that I wanted to accomplish by the end of this project.
+              </span>
+              <span class="day-para">
+                1) Learn React
+              </span>
+              <span class="day-para">
+                2) Portray the gist of the site
+              </span>
+            </span>
+            <span class="day">
+              <span class="day-title">So... did someone say React?</span>
+              <span class="day-para">
+                A year ago I would've ran away at the mention of React. There was no documentation then. :( But here we are, a year later, and there are some scraps of documentation. So let's see how this goes!
+              </span>
+            </span>
+            <span class="day">
+              <span class="day-title">But wait... do you really need React?</span>
+              <span class="day-para">
+                Errr.. actually not really. After playing with React, it seems the perks are dynamically loading content. This means node generations can be done incredibly fast, so adding and deleting content is a breeze. For the project, there wasn't any data generation so it really wasn't all that necessary -- however, it did really improve the development process since React allows you to modularize different components of your website. The framework actually worked perfectly with the video player, since there's a browsing section, a nav section, and a chat bar -- all of which need to have their own logic.
+              </span>
+            </span>
+            <span class="day">
+              <span class="day-title">Let's jump into my day-by-day</span>
+              <span class="day-para">
+                Disclaimer: Please excuse my bad grammar and abuse of the english language. It was never my forte. ...aaand grammar might have just been autocorrected. Spelling wasn’t a forte either -- unless it’s code, I promise.
+              </span>
+              <span class="day-para">
+                This was literally written as I did the project
+              </span>
+            </span>
+            <span class="day">
+              <span class="day-title">Day 1 - Reading React Documentation</span>
+              <span class="day-para">
+                Wow this is a lot more documentation than a year ago.
+                The concept of props and state comes rather straightforward.
+                I’m surprised it’s not as confusing as angular, but I guess that’s why so many people are adapting it so readily. You can really get your app up and running without having a bunch of dependencies, or wondering if you’re going to have to change your packages later. React seems to be very standalone. Nice.
+              </span>
+              <span class="day-para">
+                Tutorials range from todo lists, to a comment box. These are mostly to emphasize state, which may or may not be necessary for this video adaptation. It seems like there’s a bit of preplanning to map out exactly what components are nested within each other. To the drawing board!
+              </span>
+              <span class="day-para image">
+                <img class="day-img" src="/assets/screenshots/video-platform/structure.png"><br>
+                A rough diagram of how to break up the components
+              </span>
+              <span class="day-para image">
+                <img class="day-img" src="/assets/screenshots/video-platform/movielist.png"><br>
+                Movie-specific components
+              </span>
+              <span class="day-para image">
+                <img class="day-img" src="/assets/screenshots/video-platform/nav.png"><br>
+                How to break up the nav bar
+              </span>
+              <span class="day-para">
+              </span>
+              <span class="day-para">
+              </span>
+            </span>
+            <span class="day">
+              <span class="day-title">Day 2 - Drawing board</span>
+              <span class="day-para">
+                Ok, I see a comment box tutorial on the React site. Let’s see if we can fit this into what we’re doing. Comment box, comment list, comments. Hm, it’s based off of a API call to a server they set up in Node -- wait, this is familiar. Ok, so server and API are set up, with a bunch of bad JSON fake data consisting of “The Great Gatsby” and “The Poop Gatsby.” API seems to be working, so let’s code this up!
+              </span>
+              <span class="day-para image">
+                <img class="day-img" src="/assets/screenshots/video-platform/react.png"><br>
+                Generic React tutorial
+              </span>
+              <span class="day-para">
+                ... 2 hours later
+              </span>
+              <span class="day-para">
+                Ok, node server.js
+              </span>
+              <span class="day-para">
+                YES.
+              </span>
+              <span class="day-para">
+                Props are passed correctly, and after a few console.logs, I’m able to figure out how to pass these props along the nested components and how to get which ones I want. I love it! State is also pretty interesting to deal with, it seems like a container that can be related to Knockout’s @computables, which was basically what I used all summer to calculate state changes.
+              </span>
+              <span class="day-para">
+                Ok, now let’s get to generating a view that’s kinda remotely like the design. At this point it’s cat pictures that have titles. Let’s make it scrollable... OK CSS PLAY NICE NOW.
+              </span>
+              <span class="day-para image">
+                <img class="day-img" src="/assets/screenshots/video-platform/moviebox.png"><br>
+                MovieBox component, which generates each movie independently to populate MovieList.
+              </span>
+              <span class="day-para image">
+                <img class="day-img" src="/assets/screenshots/video-platform/movie.png"><br>
+                Singular movie node that takes in props title, duration, genre, and an image link.
+              </span>
+              <span class="day-para">
+                ...Now for the popovers. Popovers were never my friend.... 
+                Oh my god, that was terrible. Implementing popovers wasn’t the hard part, it was figuring out if they should be on the left or right side, based on where the movie is placed on a grid relative to a screen size. Since React renders these individually, the offset values within the node don’t tell me much, so I had to code up some hard math values to figure out where the movie was relative to the screen. If there’s some better way to do this, pls help me. I basically used findDOMNode, and traversed up the parents until I got the document size, then did some voodoo math to find out where our original node is relative to this. Ok, it works. Why does my stupid popover keep flickering? Time to write some weird logic in my render function that actually executes this left or right logic.
+              </span>
+              <span class="day-para image">
+                <img class="day-img" src="/assets/screenshots/video-platform/movienode.png"><br>
+                State passing allows for me to figure out if a popover should be triggered or not.
+              </span>
+              <span class="day-para">
+                Should logic be in render? I feel like no. I’ll sneak in a bit here. Errors. ... but they’re kinda specific. I like this.
+              </span>
+              <span class="day-para">
+                Console.log is your best friend.
+              </span>
+              <span class="day-para image">
+                <img class="day-img" src="/assets/screenshots/video-platform/left.png"><br>
+                Lots of logic went into figuring out if popovers should be added on left or right.
+              </span>
+              <span class="day-para image">
+                <img class="day-img" src="/assets/screenshots/video-platform/right.png"><br>
+                It works! :')
+              </span>
+              <span class="day-para">
+                3 CSS hours later
+                Things are looking good! I have always hated centering divs... Also figuring out how to make 3 columns was quite annoying. One day I will be a CSS guru, but today is not the day. 
+              </span>
+              <span class="day-para">
+                Ok, after the first 3 assets, things got a little boring. But playing around with the image locations on my hover view was generally less unpleasant than the day’s CSS struggles.
+              </span>
+              <span class="day-para image">
+                <img class="day-img" src="/assets/screenshots/video-platform/assets.png"><br>
+                Jumped into illustrators to create some icons!
+              </span>
+            </span>
+            <span class="day">
+              <span class="day-title">Day 3 - Nav & Friends</span>
+              <span class="day-para">
+                Almost there! At this point I realize that adding filtering will probably extend this project by another day... a day I don't have :( Let's see what kind of goodies we can come up with in replacement. By this point, I have a pretty decent understanding of how to break down the friends list and nav into components and subcomponents, so let's do that!
+              </span>
+              <span class="day-para image">
+                <img class="day-img-spec" src="/assets/screenshots/video-platform/nav-1.png"><br>
+                Allowed passing of states to recognize which section we're in.
+              </span>
+              <span class="day-para image">
+                <img class="day-img-spec" src="/assets/screenshots/video-platform/nav-2.png"><br>
+                Each category (Main, Your Movie Circles, Collections) is its own component. Inside this, the actual links are dynamically added!
+              </span>
+              <span class="day-para image">
+                <img class="day-img-spec" src="/assets/screenshots/video-platform/friend-side.png"><br>
+                Categories online and offline are generated, and each friendNode is created!
+              </span>
+              <span class="day-para image">
+                <img class="day-img-spec" src="/assets/screenshots/video-platform/friend-hover.png"><br>
+                More hover logic based on state attributes
+              </span>
+            </span>
+            <span class="day">
+              <span class="day-title">Are we there yet?</span>
+              <span class="day-para">
+                Yes!!!
+              </span>
+              <span class="day-para image">
+                <img class="day-img-fin" src="/assets/screenshots/video-platform/complete.png"><br>
+                Completed product!
+              </span>
+              <span class="day-para image">
+                <img class="day-img-fin" src="/assets/screenshots/video-platform/dribbble.png"><br>
+                And the original dribbble
+              </span>
+            </span>
+          </span>
+          <div class="shots">
+            <img src="/assets/screenshots/video-platform/final1.png">
+            <img src="/assets/screenshots/video-platform/final2.png">
+            <img src="/assets/screenshots/video-platform/final3.png">
+            <img src="/assets/screenshots/video-platform/final4.png">
+          </div>
+          <div class="tech">
+            <span class="sublabel">Technologies</span>
+            React, HTML, CSS, Javascript, jQuery, Babel, JSX, Node.js
+          </div>
+
+          <div class="lessons">
+            <span class="sublabel">Lessons</span>
+            Wow React is amazing<br>
+            Building down with React is great<br>
+            Passing states back up and building up could be improved<br>
+            Never zoom out 65% and forget that you zoomed....<br>
+            Learning something over the weekend is actually really fun<br>
+          </div>
+          <a href="https://counsyl-video.herokuapp.com"><div class="live-ref">Check it out live!</div></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

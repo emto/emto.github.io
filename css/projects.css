@@ -40,6 +40,10 @@
   background-image: url('/assets/screenshots/dnanexus/dnanexus_icon.png');
 }
 
+.video {
+  background-image: url('/assets/screenshots/video-platform/complete.png');
+}
+
 .module {
   padding: 20px;
   text-align: center;
@@ -107,6 +111,44 @@
 .shots img {
   width: 40%;
   margin: 10px;
+}
+
+.process {
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+}
+
+.day {
+  margin: 40px 0px;
+  display: block;
+}
+
+.day-para {
+  margin: 10px 0px;
+  display: block;
+}
+
+.day-title {
+  font-size: 25px;
+}
+
+.day-img {
+  width: 500px;
+  display: inline-block;
+}
+
+.image {
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.day-img-spec {
+  width: 200px;
+}
+
+.day-img-fin{
+  width: 80%;
 }
 
 @media only screen and (max-width: 800px) {
